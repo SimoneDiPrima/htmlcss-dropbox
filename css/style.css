@@ -1,3 +1,41 @@
 *{
-    background-color: aqua;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:  'Open Sans', sans-serif;
+    font-size:15px;
+}
+.intestazionefissa{
+    height:100px;
+    width:100%;
+    background-color: white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position:fixed;
+}
+.logo-titolo{
+    height:50px;
+}
+.sezioni-titolo a{
+    margin-left:20px;
+}
+.sezioni-titolo a, .sezioni-titolo-destra a{
+    display:flex;
+    color:gray;
+    text-decoration: none;
+}
+.sezioni-titolo-destra a{
+    margin-right:20px;
+}
+.header-list-item{
+    list-style-type:none;
+    display:flex;
+    align-items:center;
+}
+.bottone-accesso{
+    background-color: dodgerblue;
+    color: white;
+    font-size: 15px;
+    padding:5px;  
 }
