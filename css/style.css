@@ -267,7 +267,6 @@ ul{
 .row-line-container{
     display:flex;
 }
-
 .single-colo{
     max-width:calc(80% / 3);
     padding: 10px 10px;
@@ -280,8 +279,7 @@ ul{
 .client-info{
     width:80%;
     margin:100px auto;
-    text-align: left;
-    
+    text-align: left;   
 }
 #client-title{
     width:60%;
@@ -292,21 +290,68 @@ ul{
     color:blue;
 }
 .sponsor-section{
-    max-width:1400px;
+    max-width:100%;
     display:flex;
 }
 .sponsor-mini-section{
     width:calc(100% / 3);
-    border:1px solid black;
+    height:calc(100vw / 3);  
 }
 .lateral-section{
     display:flex;
     flex-wrap: wrap;
+    height:calc(100% / 2);
+}
+#morten-logo-image{
+    margin-top:20px;
+    width:60%;
+}
+#morten-speech{
+   margin:40px 0;
+}
+.central-section{
+    text-align: left;
+    padding:30px;
 }
 .small-image{
     width:calc(100% / 2);
-    border:1px solid black;
+   position:relative;
 }
-#central-image{
-    
+.center-image{
+    padding:20px 20px;
+    position:relative;
+   top:50%;
+   left:50%;
+   transform: translate(-50%,-50%);
+}
+.central-image{
+    transform: scale(0.6);
+}
+/* utilities */
+.bg-yellow{
+    background-color: yellow;
+}
+.bg-red{
+background-color: red;
+}
+.bg-blue{
+background-color: blue;
+}
+.bg-green{
+    background-color: green;
+}
+.bg-orange{
+    background-color: orangered;
+}
+.bg-purple{
+    background-color: purple;
+}
+.bg-dodgerblue{
+    background-color: dodgerblue;
+}
+.bg-lightgreen{
+    background-color: lightgreen;
+}
+.bg-lightblue{
+    background-color: aqua;
 }
