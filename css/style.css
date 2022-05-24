@@ -13,6 +13,9 @@
     justify-content:space-between;
     align-items:center;
     position:fixed;
+    top:0;
+    left:0;
+    z-index: 1;
 }
 .logo-titolo{
     height:50px;
@@ -354,4 +357,26 @@ background-color: blue;
 }
 .bg-lightblue{
     background-color: aqua;
+}
+.advertise-section{
+    width:100%;
+    margin:0 auto;
+    padding:100px 0;
+    background-color: aquamarine;
+    display:flex;
+    justify-content:center;
+    align-items: baseline;
+
+}
+#section-title-down{
+    width:40%;
+    color:brown;
+    font-size:38px;
+    text-align:left;
+    align-self:baseline;
+}
+.last-button{
+    width:20%;
+    text-align:center;
+    align-self:baseline;
 }
