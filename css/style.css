@@ -192,6 +192,7 @@ ul{
     width:80%;
     margin:0 auto;
     padding:30px;
+    margin-bottom:100px;
 }
 .sottotitolo-section{
     text-align:center;
@@ -223,4 +224,29 @@ ul{
      margin-top:10px;
      margin-bottom:30px;
 }
-
+.row-image{
+    width:70%;
+    padding-right:30px;
+}
+.row-card-text{
+    width:30%;
+    align-self:center;
+}
+#image-section-header{
+    font-size:30px;
+}
+.card-image{
+    display:flex;
+    border:none;
+}
+.button-card-image{
+    margin-top:30px;
+    width:50%;
+    margin-bottom:10px;
+    font-size:15px;
+    text-align:center;
+}
+.button-card-image a{
+    color:gray;
+    text-decoration: none;
+}
