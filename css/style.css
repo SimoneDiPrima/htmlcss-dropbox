@@ -40,23 +40,27 @@
     padding:5px;  
 }
 .container-header{
+    max-width: 1400px;
     padding-top:120px;
-    margin: 0 auto;
     height:600px;
+    margin: 0 auto;
     background-color: aquamarine;
     display:flex;
-    flex-direction: column;
+    flex-direction:column;
+    text-align:left;
+}
+ul{
+    list-style-type: none;
 }
 .titolo-header{
-    width:60%;
-    font-size:60px;
+    width:80%;
+    font-size:68px;
    margin:0 auto;
    display:flex;
-   flex-direction: row;
+   flex-direction:row;
 }
 .card-header{
-    width:60%;
-    font-size:25px;
+    width:80%;
     display:flex;
     justify-content:center;
     margin:0 auto;
@@ -64,23 +68,23 @@
 }
 .text-header{
     font-size: 15px;
+    width:40%;
     
 }
-.jumbo-image{
+.card-image{
     width:60%;
-    height:350px;
+}
+#jumbo-image{
+    width:100%;
     background-size:contain;
 }
-.unordered-header{
-    margin:25px 0;
-    list-style-type: none;
-}
+
 .unordered-header.bottone-accesso a{
     color:white;
    border:none;
 }
 .button-header{
-    margin-bottom:20px;
+    margin:20px 0;
     text-decoration:none;
     border:none;
     font-size:15px;
@@ -99,6 +103,7 @@
 
 }
 .bottone-accesso-header{
+    margin:20px 0;
     background-color: dodgerblue;
     font-size: 15px;
     padding:5px;  
@@ -107,4 +112,76 @@
 .bottone-accesso-header a{
     color:white;
     text-decoration: none;
+}
+.main-container{
+    padding-top:120px;
+    margin:0 auto;
+    width:60%;
+}
+.main-section-title{
+    font-size:30px;
+}
+.main-colo-section{
+    display:flex;
+}
+.form-type{
+    margin:50px 0;
+}
+.colonna{
+    border:1px solid lightgrey;
+    min-height:900px;
+    width:33%;
+    background-color: white;
+    display:flex;
+    flex-direction:column;
+}
+.title-offer{
+    height: 15px;
+    text-align:center;
+    vertical-align:middle;
+}
+
+.icon-main{
+    font-size:10px;
+}
+.colo-items{
+    width:80%;
+    text-align:left;
+    text-decoration:none;
+    list-style-type:none;
+    margin:20px 10px;
+}
+.list-table-item{
+    margin-bottom:8px;
+}
+.button-colo{
+    margin-top:50px;
+    margin-bottom:10px;
+    font-size:10px;
+    text-align:left;
+}
+.bottone-accesso-header{
+    width:100%;
+}
+.divisione-colo{
+    border: 1px solid lightgrey;
+    width:15%;
+    margin-top:20px;
+    margin-left:10px;
+}
+.list-item-down{
+    margin-top:20px;
+    list-style-type: none;
+}
+.title-section-down{
+    margin-top:20px;
+}
+.down-list{
+    text-align: left;
+    margin:10px 10px;
+}
+.blue-check{
+    color:blue;
+    font-size:10px;
+    margin-right:5px;
 }
