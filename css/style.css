@@ -72,7 +72,6 @@ ul{
 .text-header{
     font-size: 15px;
     width:40%;
-    
 }
 .card-image{
     width:60%;
@@ -81,7 +80,6 @@ ul{
     width:100%;
     background-size:contain;
 }
-
 .unordered-header.bottone-accesso a{
     color:white;
    border:none;
@@ -95,7 +93,6 @@ ul{
     text-decoration: none;
 
 }
-
 .button-header a{
     text-decoration:none;
     color:black;
@@ -109,7 +106,7 @@ ul{
     margin:20px 0;
     background-color: dodgerblue;
     font-size: 15px;
-    padding:5px;  
+    padding:5px 5px;  
     border:none;
 }
 .bottone-accesso-header a{
@@ -119,54 +116,49 @@ ul{
 .main-container{
     padding-top:120px;
     margin:0 auto;
-    width:60%;
+    width:80%;
     padding-bottom:120px;
 }
 .main-section-title{
     font-size:30px;
 }
 .main-colo-section{
+    margin:0 20px;
     display:flex;
+    margin:0 auto;
 }
 .form-type{
     margin:50px 0;
 }
 .colonna{
     border:1px solid lightgrey;
-    min-height:950px;
-    width:33%;
-    background-color: white;
+    width:30%;
+    background-color:white;
     display:flex;
-    flex-direction:column;
+    align-items: baseline;
+    margin-right:5%;
+    padding:5px 10px;
+}
+.colo-items-title{
+    text-align:left;
+    margin:10px 10%;
 }
 .title-offer{
-    height: 15px;
     text-align:center;
     vertical-align:middle;
 }
 
 .icon-main{
     font-size:10px;
-    padding:5px;
+    margin-right:5px;
 }
 .colo-items{
     width:80%;
+    height:100%;
     text-align:left;
     text-decoration:none;
     list-style-type:none;
-    margin:20px 10px;
-}
-.list-table-item{
-    margin-bottom:8px;
-}
-.button-colo{
-    margin-top:50px;
-    margin-bottom:10px;
-    font-size:10px;
-    text-align:left;
-}
-.bottone-accesso-header{
-    width:100%;
+    margin:0 auto;
 }
 .divisione-colo{
     border: 1px solid lightgrey;
@@ -174,21 +166,24 @@ ul{
     margin-top:20px;
     margin-left:10px;
 }
-.list-item-down{
-    margin-top:20px;
-    list-style-type: none;
+.list-table-item{
+    width:100%;
+    display:flex;
+    align-items:baseline;
 }
+.btn-column{
+    width:100%;
+}
+
 .title-section-down{
     margin-top:20px;
-}
-.down-list{
     text-align: left;
-    margin:10px 10px;
+    margin-left:10px;
 }
 .blue-check{
     color:blue;
     font-size:10px;
-    margin-right:5px;
+    margin-left:5px;
 }
 .row{
     border:1px solid lightgrey;
@@ -207,17 +202,14 @@ ul{
     justify-content:space-between;
     align-items: center;
     padding:30px;
-
 }
 .row-card-left{
     width:60%;
     align-self:flex-start;
-   
 }
 .row-card-right{
     width:20%;
     align-self:center; 
-
 }
 .header-row-card{
  font-size:30px;
@@ -297,7 +289,7 @@ ul{
     display:flex;
 }
 .sponsor-mini-section{
-    width:calc(100% / 3);
+    width:calc(100vw / 3);
     height:calc(100vw / 3);  
 }
 .lateral-section{
@@ -321,11 +313,12 @@ ul{
    position:relative;
 }
 .center-image{
-    padding:20px 20px;
-    position:relative;
-   top:50%;
-   left:50%;
-   transform: translate(-50%,-50%);
+   width:50%;
+   height:50%;
+  position:relative;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
 }
 .central-image{
     transform: scale(0.6);
@@ -366,18 +359,15 @@ background-color: blue;
     display:flex;
     justify-content:center;
     align-items: baseline;
-
 }
 #section-title-down{
     width:40%;
     color:brown;
     font-size:38px;
     text-align:left;
-    align-self:baseline;
 }
 .last-button{
     width:20%;
     text-align:center;
-    align-self:baseline;
     padding:10px;
 }
