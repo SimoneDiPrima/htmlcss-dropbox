@@ -137,7 +137,7 @@ ul{
     display:flex;
     align-items: baseline;
     margin-right:5%;
-    padding:5px 10px;
+    padding:5px 5px;
 }
 .colo-items-title{
     text-align:left;
@@ -165,9 +165,11 @@ ul{
     width:15%;
     margin-top:20px;
     margin-left:10px;
+    margin-bottom: 20px;
 }
 .list-table-item{
     width:100%;
+    margin: 0 auto;
     display:flex;
     align-items:baseline;
 }
@@ -176,9 +178,9 @@ ul{
 }
 
 .title-section-down{
-    margin-top:20px;
-    text-align: left;
-    margin-left:10px;
+    width:80%;
+    margin:0 auto;
+    text-align:left;
 }
 .blue-check{
     color:blue;
@@ -405,8 +407,24 @@ background-color: blue;
     margin-top:40px;
     margin-bottom:30px;
 }
+.hr-footer{
+    color:white;
+    width:80%;
+    margin-top:60px;
+}
 .footer-list-item a{
     text-decoration:none;
     color:white;
-    line-height: 200%;
+    line-height:200%;
+}
+#footer-nav-menu{
+    margin-top:20px;
+    color:gray;
+    display:flex;
+    align-items: center;
+}
+#footer-nav-menu::after{
+    content:"\1F891";
+    font-size:200%;
+    margin-top:-25px;
 }
