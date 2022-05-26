@@ -76,7 +76,7 @@ ul{
 .card-image{
     width:60%;
 }
-#jumbo-image{
+.jumbo-image{
     width:100%;
     background-size:contain;
 }
