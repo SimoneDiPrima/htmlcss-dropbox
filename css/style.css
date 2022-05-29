@@ -346,7 +346,11 @@ background-color: blue;
     background-color: dodgerblue;
 }
 .bg-lightgreen{
-    background-color: lightgreen;
+    filter:invert(1);
+    background-color:purple;
+}
+.bg-lightgreen:hover{
+    box-shadow: inset 0px 0px 0px 10px rgb(24, 10, 24);
 }
 .bg-lightblue{
     background-color: aqua;
