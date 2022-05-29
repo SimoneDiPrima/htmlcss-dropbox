@@ -36,12 +36,22 @@
     display:flex;
     align-items:center;
 }
-.bottone-accesso{
-    background-color: dodgerblue;
-    color: white;
-    font-size: 15px;
-    padding:5px;  
+#nav-button{
+    margin-right:10px;
 }
+.bottone-accesso-header{
+    margin:20px 0;
+    background-color: dodgerblue;
+    font-size: 15px;
+    padding:5px 5px;
+    border:none;
+}
+.bottone-accesso-header a{
+    color:white;
+    text-decoration: none;
+    margin:0 auto;
+}
+
 .container-header{
     max-width: 1400px;
     padding-top:120px;
@@ -99,17 +109,6 @@ ul{
 .fa-solid {
     margin-top:20px;
     font-size:30px;
-}
-.bottone-accesso-header{
-    margin:20px 0;
-    background-color: dodgerblue;
-    font-size: 15px;
-    padding:5px 5px;  
-    border:none;
-}
-.bottone-accesso-header a{
-    color:white;
-    text-decoration: none;
 }
 .main-container{
     padding-top:120px;
@@ -209,7 +208,7 @@ ul{
 }
 .row-card-right{
     width:20%;
-    align-self:center; 
+    align-self:center;
 }
 .header-row-card{
  font-size:30px;
@@ -274,7 +273,7 @@ ul{
 .client-info{
     width:80%;
     margin:100px auto;
-    text-align: left;   
+    text-align: left;
 }
 #client-title{
     width:60%;
@@ -285,12 +284,12 @@ ul{
     color:blue;
 }
 .sponsor-section{
-    max-width:100%;
+    margin:0 -12.5%;
     display:flex;
 }
 .sponsor-mini-section{
     width:calc(100vw / 3);
-    height:calc(100vw / 3);  
+    height:calc(100vw / 3);
 }
 .lateral-section{
     display:flex;
@@ -356,8 +355,7 @@ background-color: blue;
     background-color: aqua;
 }
 .advertise-section{
-    width:100%;
-    margin:0 auto;
+    margin:0 -12.5%;
     padding:100px 0;
     background-color: aquamarine;
     display:flex;
